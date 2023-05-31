@@ -1,0 +1,137 @@
+.part-gpt {
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: #0C0C0F;
+    min-height:43vw;
+    
+    min-height: 800px;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content:baseline;
+    contain: content;
+}
+.buttons-left{
+    margin-top: 2%;
+    display:grid;
+    margin-bottom: 5%;
+}
+.buttons-left a{
+    height: 10px;
+}
+.buttons-left img{
+    margin-top: 10px;
+    min-height: 25px;
+    min-width: 25px;
+    width: 100%;
+}
+.input-area{
+    margin-left: 4%;
+    margin-top: 25px;
+    max-height: 52px;
+}
+.input-area input{
+    margin-top: 30px;
+    min-width: 520%;
+    min-height: 3.50vw;
+    border-color: rgb(1,241,255);
+    background-color: rgb(11,34,38);
+    color: rgb(1,241,255);
+    font-size: 100%;
+}
+::placeholder{
+    padding-left: 10px;
+    color: rgb(1,241,255);
+    font-size: 110%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.output-screen{
+    background-color: rgb(24,24,27);
+    border: 2px solid rgb(126,126,126);
+    min-width: 522%;
+    min-height: 600px;
+}
+.youtube-videos {
+   /* border: 2px solid rgb(126,126,126);*/
+    width: 500px;
+    position: absolute;
+    right: 5%;
+    margin-top: 1.2%;
+    
+}
+.youtube-videos iframe{
+    margin-bottom: 20px;
+    border: 2px solid rgba(126, 126, 126, 0);
+    border-radius: 3%;
+    width: 450px;
+    height: 11vw;
+ }
+.rec.rec-arrow-up {
+    visibility: hidden;
+}
+.rec.rec-arrow-down {
+    visibility: hidden;
+}
+.rec.rec-dot {
+    box-shadow: 0 0 1px 3px rgb(199, 202, 0);
+    
+    background-color: black;
+}
+
+
+@media screen and (max-width: 1840px) {   
+    .input-area input{
+        min-width: 480%;
+    }   
+    .output-screen{
+        min-width: 482%;
+    }
+}
+@media screen and (max-width: 1700px) {   
+    .input-area input{
+        min-width: 400%;
+    }   
+    .output-screen{
+        min-width: 402%;
+    }
+}
+@media screen and (max-width: 1470px) {    
+    .input-area input{
+        min-width: 340%;       
+    }   
+    .output-screen{        
+        min-width: 342%;
+    }
+}
+@media screen and (max-width: 1370px) {    
+    .input-area input{
+        min-width: 300%;       
+    }   
+    .output-screen{        
+        min-width: 302%;
+    }
+}
+@media screen and (max-width: 1290px) {    
+    .input-area input{
+        min-width: 270%;       
+    }   
+    .output-screen{        
+        min-width: 272%;
+    }
+}
+@media screen and (max-width: 1200px) {    
+    .input-area input{
+        min-width: 230%;       
+    }   
+    .output-screen{        
+        min-width: 232%;
+    }
+}
+@media screen and (max-width: 1100px) {    
+    .input-area input{
+        min-width: 210%;       
+    }   
+    .output-screen{        
+        min-width: 212%;
+    }
+}
